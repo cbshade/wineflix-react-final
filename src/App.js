@@ -1,16 +1,11 @@
 import "./App.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faPlay, faInfoCircle } from "@fortawesome/free-solid-svg-icons"
-import Navigation from "./Navigation";
-import HeroContent from "./HeroContent";
+import Hero from "./Hero";
 
 const App = () => {
   return (
     <div className="App">
       <header className="hero">
-        <img className="hero-image" src="/wine-hero.webp" alt="Wine bottles" />
-        <Navigation />
-        <HeroContent />
+        <Hero />
       </header>
       <main>
         <section className="category">
