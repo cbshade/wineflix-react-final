@@ -1,6 +1,6 @@
-const NavigationLink = ({ url, label, active }) => {
+const NavigationLink = ({ url, label, active, id }) => {
     return (
-      <li className={active ? "active" : null}>
+      <li className={active ? "active" : null} id={id}>
         <a href={url}>{label}</a>
       </li>
     );

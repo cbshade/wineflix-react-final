@@ -1,9 +1,9 @@
 import PlayButton from "./PlayButton";
 import InfoCircleButton from "./InfoCircleButton";
 
-const Control = ({ classname, label, icon }) => {
+const Control = ({ classname, label, icon, id }) => {
     return (
-        <li>
+        <li classname={id}>
         <button className={classname}>
         {icon === "Play" ? <PlayButton /> : null}
         {icon === "InfoCircle" ? <InfoCircleButton /> : null}
