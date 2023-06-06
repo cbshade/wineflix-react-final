@@ -1,7 +1,7 @@
 import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faPlay, faInfoCircle } from "@fortawesome/free-solid-svg-icons"
-import NavigationLinks from "./NavigationLink";
+import NavigationLinks from "./NavigationLinks";
 
 const App = () => {
   return (
@@ -11,18 +11,7 @@ const App = () => {
       <nav className="navigation">
         <section className="primary-navigation">
           <h1>WineFlix</h1>
-          <ul className="navigation-links">
           <NavigationLinks />
-            <li>
-              <a href="https://developer.mozilla.org">Whites</a>
-            </li>
-            <li>
-              <a href="https://developer.mozilla.org">Reds</a>
-            </li>
-            <li>
-              <a href="https://developer.mozilla.org">Blends</a>
-            </li>
-          </ul>
         </section>
         <section className="secondary-navigation">
           <span className="user-avatar">
